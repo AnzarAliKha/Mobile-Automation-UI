@@ -1,6 +1,4 @@
 # Enterprise Modern Web UI Automation Framework
-
-[![Playwright Tests](https://github.com/organization/playwright-enterprise-automation/actions/workflows/playwright.yml/badge.svg)](https://github.com/organization/playwright-enterprise-automation/actions/workflows/playwright.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
 [![Playwright](https://img.shields.io/badge/Playwright-1.50+-green.svg)](https://playwright.dev/)
 
