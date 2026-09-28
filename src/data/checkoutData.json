@@ -1,0 +1,35 @@
+{
+  "validCustomer": {
+    "firstName": "Alex",
+    "lastName": "Mercer",
+    "postalCode": "94107"
+  },
+  "alternativeCustomer": {
+    "firstName": "Samantha",
+    "lastName": "Reed",
+    "postalCode": "10001"
+  },
+  "invalidCustomers": [
+    {
+      "scenario": "missing_first_name",
+      "firstName": "",
+      "lastName": "Mercer",
+      "postalCode": "94107",
+      "expectedError": "Error: First Name is required"
+    },
+    {
+      "scenario": "missing_last_name",
+      "firstName": "Alex",
+      "lastName": "",
+      "postalCode": "94107",
+      "expectedError": "Error: Last Name is required"
+    },
+    {
+      "scenario": "missing_postal_code",
+      "firstName": "Alex",
+      "lastName": "Mercer",
+      "postalCode": "",
+      "expectedError": "Error: Postal Code is required"
+    }
+  ]
+}
